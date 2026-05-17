@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "product": "deepseek-novel-writer",
+    "customer": "JunseoLee-local",
+    "machine_code": "NW-EC2B-4597-56D3-CBC2-42F3-2836",
+    "license_type": "perpetual",
+    "issued_at": "2026-04-28T01:13:01+00:00",
+    "expires_at": null
+  },
+  "signature": "ex_hHVY_0g4gA8sO1YoRGunGDjt7WF29s_YVXFcwog3xKQDO2ifVpqd_MEwSwuFXtDrCD8sNrxMgYiINGFLJ_cwlOfy3qG1uv3HISY9Ow_l3g_pZiYA_ex8F3GqMJ_5q6YS8drj6BVO7jLBVsMuEhIUuhkZT4yJ3pNBYv7Gif-sktJXDTqtxSXOso6AtiiWV-4yKOVt5UD1RhlmdgFES_o2JvfvgeboQpEtXDtNVvuTrDRW-Yk-qiKQ97666vVBQArwHtr5DL3u-c78S4FWvBno_RhuqTpyTkpQiX3GFKxjkWDsjpVNu5d2HzYaWhYSybLPmvQlnj3zdvah7hyH98w"
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsbook-novel-writer"
+version = "2.1.0"
+description = "DeepSeek V4-Flash 驱动的中国网文一键自动写作系统（傻瓜式 exe，含离线买断授权）。"
+requires-python = ">=3.10"
+dependencies = [
+    "customtkinter>=5.2.2",
+]
+
+[project.optional-dependencies]
+build = [
+    "pyinstaller>=6",
+]
+
+[project.scripts]
+dsbook = "gui:main"
+license-admin = "novel_writer.license_admin:main"
+
+[tool.setuptools]
+packages = ["novel_writer"]
+py-modules = ["gui", "license_issuer_gui", "license_manager", "novel_engine", "novel_project"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
